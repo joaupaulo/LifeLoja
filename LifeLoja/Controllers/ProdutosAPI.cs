@@ -71,7 +71,9 @@ namespace LifeLoja.Controllers
                 return BadRequest("Produto Invalido");
             }
 
-            await _produtoRepository.CreateProduct(produto);
+             await _produtoRepository.CreateProduct(produto);
+
+
 
             return CreatedAtRoute("GetProduct", new { id = produto.Id }, produto);
         }
