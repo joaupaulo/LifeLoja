@@ -13,7 +13,7 @@ namespace LifeLoja.Services
 
         private readonly IMongoCollection<Produtos> _context;
 
-        public ProdutosService(ProdutoStoreDatabaseSettings settings)
+        public ProdutosService(IProdutoStoreDatabaseSettings settings)
         {
             var client = new MongoClient(settings.ConnectionString);
             var database = client.GetDatabase(settings.DatabaseName);

@@ -34,6 +34,7 @@ C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\s
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\staticwebassets\LifeLoja.StaticWebAssets.xml
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\scopedcss\bundle\LifeLoja.styles.css
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\LifeLoja.RazorTargetAssemblyInfo.cache
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\LifeLoja.csproj.CopyComplete
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\LifeLoja.dll
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\ref\LifeLoja.dll
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\LifeLoja\obj\Debug\net5.0\LifeLoja.pdb

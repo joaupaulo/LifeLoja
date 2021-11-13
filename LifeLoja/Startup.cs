@@ -35,7 +35,8 @@ namespace LifeLoja
             services.AddSingleton<IProdutoStoreDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<ProdutoStoreDatabaseSettings>>().Value);
 
-            services.AddScoped<ProdutosService>();
+            services.AddSingleton<ProdutosService>();
+
 
 
             services.AddControllers();
