@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wdHyvkrLmt+Ik4epWcvq2f1/JJc6JLFwS54LoKx793mUjk2tOQZzPhL6rZgLMhmtsDpxqKdgthwoLpF8srWTKQ==",
+  "dgSpecHash": "jIlT6jLxL4oaOeoJ4wIVwJDUc+WEfbS3BgCrglD+DLPMsKwsppIeeIVWj2I3rkla1HOJn/C9akwaHAyjs1DXRA==",
   "success": true,
   "projectFilePath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\mongodb.driver\\2.13.2\\mongodb.driver.2.13.2.nupkg.sha512",
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\mongodb.driver.core\\2.13.2\\mongodb.driver.core.2.13.2.nupkg.sha512",
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.2\\mongodb.libmongocrypt.1.2.2.nupkg.sha512",
+    "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
