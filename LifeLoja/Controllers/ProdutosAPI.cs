@@ -23,9 +23,15 @@ namespace LifeLoja.Controllers
 
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<Produtos>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<IEnumerable<Produtos>>> GetProducts()
         {
             var products = await _produtoRepository.GetProduto();
+            
+            if( products is null )
+            {
+                return NotFound();
+            } 
 
             return Ok(products);
         }
