@@ -7001,6 +7001,7 @@
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NSubstitute >= 4.2.2",
       "ProdutoFakeData >= 1.0.0",
+      "System.Collections >= 4.3.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.extensibility.core >= 2.4.1",
@@ -7064,6 +7065,10 @@
           "NSubstitute": {
             "target": "Package",
             "version": "[4.2.2, )"
+          },
+          "System.Collections": {
+            "target": "Package",
+            "version": "[4.3.0, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
