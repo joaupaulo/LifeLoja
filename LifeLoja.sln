@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeLoja", "LifeLoja\LifeLo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaLife.Tests", "LojaLife.Tests\LojaLife.Tests.csproj", "{445D4EA2-416F-4151-B10F-B5BC318C42C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Produtos.FakeData", "Produtos.FakeData\Produtos.FakeData.csproj", "{39EB90F3-1A36-4389-AD92-4B6F1B6257FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProdutoFakeData", "Produtos.FakeData\ProdutoFakeData.csproj", "{39EB90F3-1A36-4389-AD92-4B6F1B6257FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

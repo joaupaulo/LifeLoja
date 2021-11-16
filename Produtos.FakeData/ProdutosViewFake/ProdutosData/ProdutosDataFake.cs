@@ -7,7 +7,7 @@ using Bogus;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace Produtos.FakeData.ProdutosViewFake.ProdutosData
+namespace ProdutoFakeData.ProdutosViewFake.ProdutosData
 {
    public class ProdutosDataFake 
     {

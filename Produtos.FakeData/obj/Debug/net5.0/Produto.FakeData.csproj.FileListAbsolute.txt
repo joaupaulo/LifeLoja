@@ -1,0 +1,12 @@
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug\net5.0\Produto.FakeData.deps.json
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug\net5.0\Produto.FakeData.dll
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug\net5.0\ref\Produto.FakeData.dll
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug\net5.0\Produto.FakeData.pdb
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\Produto.FakeData.csproj.AssemblyReference.cache
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\Produto.FakeData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\Produto.FakeData.AssemblyInfoInputs.cache
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\Produto.FakeData.AssemblyInfo.cs
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\Produto.FakeData.csproj.CoreCompileInputs.cache
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\Produto.FakeData.dll
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ref\Produto.FakeData.dll
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\Produto.FakeData.pdb

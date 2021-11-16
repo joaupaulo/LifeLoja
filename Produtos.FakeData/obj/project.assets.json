@@ -118,9 +118,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\Produtos.FakeData.csproj",
-      "projectName": "Produtos.FakeData",
-      "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\Produtos.FakeData.csproj",
+      "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
+      "projectName": "ProdutoFakeData",
+      "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
       "packagesPath": "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\obj\\",
       "projectStyle": "PackageReference",

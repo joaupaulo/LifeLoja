@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RlRmu8j/7asJDjf+1qSPe3aq93beLQpWYdCEF2hvCl/N1M7w7TijpDGOWt6FmTgsqmK/VjUeMFB74Axq71SB3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\bogus\\33.1.1\\bogus.33.1.1.nupkg.sha512",
+    "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\mongodb.bson\\2.13.2\\mongodb.bson.2.13.2.nupkg.sha512",
+    "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

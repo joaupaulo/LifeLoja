@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LifeLoja\LifeLoja.csproj" />
+    <ProjectReference Include="..\Produtos.FakeData\ProdutoFakeData.csproj" />
   </ItemGroup>
 
 </Project>

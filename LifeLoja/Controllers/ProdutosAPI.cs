@@ -13,9 +13,9 @@ namespace LifeLoja.Controllers
     [ApiController]
     public class ProdutosAPI : ControllerBase
     {
-        private readonly ProdutosService _produtoRepository;
+        private readonly IProdutosService _produtoRepository;
 
-        public ProdutosAPI(ProdutosService produtoRepository)
+        public ProdutosAPI(IProdutosService produtoRepository)
         {
             _produtoRepository = produtoRepository;
 

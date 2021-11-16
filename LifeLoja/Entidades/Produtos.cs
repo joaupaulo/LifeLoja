@@ -18,5 +18,29 @@ namespace LifeLoja.Entidades
         public string Descrption { get; set; }
         public int  Price { get; set; }
         public int Amount { get; set; }
+
+
+
+        public Produtos(string id, string name, string category, string description, int price, int amount)
+        {
+            Id = id;
+            Name = name;
+            Category = category;
+            Descrption = description;
+            Price = price;
+            Amount = amount;
+
+        }
+
+
+
+
+
     }
+
+
+
+
+
+
 }

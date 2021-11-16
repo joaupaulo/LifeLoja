@@ -2057,6 +2057,20 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "ProdutoFakeData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Bogus": "33.1.1",
+          "MongoDB.Bson": "2.13.2"
+        },
+        "compile": {
+          "bin/placeholder/ProdutoFakeData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProdutoFakeData.dll": {}
+        }
       }
     }
   },
@@ -6973,6 +6987,11 @@
       "type": "project",
       "path": "../LifeLoja/LifeLoja.csproj",
       "msbuildProject": "../LifeLoja/LifeLoja.csproj"
+    },
+    "ProdutoFakeData/1.0.0": {
+      "type": "project",
+      "path": "../Produtos.FakeData/ProdutoFakeData.csproj",
+      "msbuildProject": "../Produtos.FakeData/ProdutoFakeData.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6981,6 +7000,7 @@
       "LifeLoja >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NSubstitute >= 4.2.2",
+      "ProdutoFakeData >= 1.0.0",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
       "xunit.extensibility.core >= 2.4.1",
@@ -7016,6 +7036,9 @@
           "projectReferences": {
             "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj": {
               "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj"
+            },
+            "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj": {
+              "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj"
             }
           }
         }

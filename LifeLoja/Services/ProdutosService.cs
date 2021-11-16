@@ -8,7 +8,7 @@ using MongoDB.Driver;
 
 namespace LifeLoja.Services
 {
-    public class ProdutosService 
+    public class ProdutosService : IProdutosService
     {
 
         private readonly IMongoCollection<Produtos> _context;
