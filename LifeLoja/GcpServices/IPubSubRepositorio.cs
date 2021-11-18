@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace LifeLoja.GcpServices
 {
-    public class IPubSubRepositorio
+    public interface IPubSubRepositorio
     {
+        Task<int> PublishProtoMessagesAsync();
     }
 }

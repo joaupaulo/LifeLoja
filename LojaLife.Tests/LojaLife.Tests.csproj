@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Bogus" Version="33.1.1" />
+    <PackageReference Include="Google.Cloud.PubSub.V1" Version="2.7.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
     <PackageReference Include="NSubstitute" Version="4.2.2" />
     <PackageReference Include="System.Collections" Version="4.3.0" />

@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[6.2.0, )"
             },
+            "Google.Cloud.PubSub.V1": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.13.2, )"
