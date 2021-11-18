@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaLife.Tests", "LojaLife.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProdutoFakeData", "Produtos.FakeData\ProdutoFakeData.csproj", "{39EB90F3-1A36-4389-AD92-4B6F1B6257FE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{E79219EA-F0A5-4B7C-8FDC-04A60AAA46AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{445D4EA2-416F-4151-B10F-B5BC318C42C6} = {E79219EA-F0A5-4B7C-8FDC-04A60AAA46AB}
+		{39EB90F3-1A36-4389-AD92-4B6F1B6257FE} = {E79219EA-F0A5-4B7C-8FDC-04A60AAA46AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {79F09282-FE71-40A4-BF82-C3486901C6E8}

@@ -42,11 +42,7 @@ namespace LojaLife.Tests
         [Fact]
         public async Task Get_Ok()
         {
-           
-
-          
-              _produtosservice.GetProduto().Returns(prod);
-
+            _produtosservice.GetProduto().Returns(prod);
         }
 
 
