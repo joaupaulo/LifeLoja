@@ -1,6 +1,7 @@
 ﻿using Google.Apis.Util;
 using Google.Cloud.PubSub.V1;
 using Google.Protobuf;
+using LifeLoja.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,11 +13,12 @@ namespace LifeLoja.GcpServices
     public class PubSubRepositorio
     {
 
+        private string projectId = null;
+        private string topicId = null;
 
 
 
-
-        public async Task<int> PublishProtoMessagesAsync(string projectId, string topicId, IEnumerable<AvroUtilities.State> messageStates)
+        public async Task<int> PublishProtoMessagesAsync( IEnumerable<Produtos> messageStates)
         {
             TopicName topicName = TopicName.FromProjectTopic(projectId, topicId);
             PublisherClient publisher = await PublisherClient.CreateAsync(topicName);
