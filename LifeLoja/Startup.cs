@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LifeLoja.DatabaseSettings;
+using LifeLoja.GcpServices;
+using LifeLoja.RabbitServices;
 using LifeLoja.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,7 +37,9 @@ namespace LifeLoja
             services.AddSingleton<IProdutoStoreDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<ProdutoStoreDatabaseSettings>>().Value);
 
-            services.AddSingleton<ProdutosService>();
+            services.AddSingleton<IProdutosService,ProdutosService>();
+            services.AddSingleton<IPubSubRepositorio, PubSubRepositorio>();
+            services.AddSingleton<IRabbitServices, ServicesRabbitRepositorio>();
 
 
 

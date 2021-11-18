@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using LifeLoja.Controllers;
 using LifeLoja.Entidades;
+using LifeLoja.GcpServices;
 using LifeLoja.Services;
 using Microsoft.AspNetCore.Mvc;
 using NSubstitute;
@@ -17,13 +18,15 @@ namespace LojaLife.Tests
         private readonly IProdutosService _produtosservice;
         private readonly ProdutosAPI _produtosAPI;
         private readonly ProdutosDataFake _produtosDataFake;
+        private readonly IPubSubRepositorio _pubSubRepositorio;
         private readonly List<ProdutosDataFake> _ListProdutosDataFake;
         private readonly List<Produtos> prod;
 
         public LifeTestes()
         {
             _produtosservice = Substitute.For<IProdutosService>();
-            _produtosAPI = new ProdutosAPI(_produtosservice);
+            _pubSubRepositorio = Substitute.For<IPubSubRepositorio>();
+            //_produtosAPI = new ProdutosAPI(_produtosservice, _pubSubRepositorio);
             _produtosDataFake = new ProdutosViewFaker().Generate();
             _ListProdutosDataFake = new ProdutosViewFaker().Generate(50);
 
@@ -39,24 +42,7 @@ namespace LojaLife.Tests
 
 
 
-        [Fact]
-        public async Task Get_Ok()
-        {
-            _produtosservice.GetProduto().Returns(prod);
-        }
-
-
-
-        [Fact]
-        public async Task GetId_Ok()
-        {
-            _produtosservice.GetProduto().Returns(prod);
-
-
-
-
-        }
-
+     
 
 
     }

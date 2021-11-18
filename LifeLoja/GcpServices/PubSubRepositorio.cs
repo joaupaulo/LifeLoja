@@ -10,50 +10,25 @@ using System.Threading.Tasks;
 
 namespace LifeLoja.GcpServices
 {
-    public class PubSubRepositorio
+    public class PubSubRepositorio : IPubSubRepositorio
     {
 
-        private string projectId = null;
-        private string topicId = null;
+        private string projectId = "windy-cedar-332513";
+        private string topicId = "projects/windy-cedar-332513/topics/LifeLoja";
 
-
-
-        public async Task<int> PublishProtoMessagesAsync( IEnumerable<Produtos> messageStates)
+        public async Task PublishMessageWithCustomAttributesAsync( Produtos produtos)
         {
             TopicName topicName = TopicName.FromProjectTopic(projectId, topicId);
             PublisherClient publisher = await PublisherClient.CreateAsync(topicName);
+            var messagem = "";
+           
+            messagem = System.Text.Json.JsonSerializer.Serialize(produtos);
+ 
+            string message = await publisher.PublishAsync(messagem);
+          
 
-            PublisherServiceApiClient publishApi = PublisherServiceApiClient.Create();
-            var topic = publishApi.GetTopic(topicName);
-
-            int publishedMessageCount = 0;
-            var publishTasks = messageStates.Select(async state =>
-            {
-                try
-                {
-                    string messageId = null;
-                    switch (topic.SchemaSettings.Encoding)
-                    {
-                        case Encoding.Binary:
-                            var binaryMessage = state.ToByteString();
-                            messageId = await publisher.PublishAsync(binaryMessage);
-                            break;
-                        case Encoding.Json:
-                            var jsonMessage = JsonFormatter.Default.Format(state);
-                            messageId = await publisher.PublishAsync(jsonMessage);
-                            break;
-                    }
-                    Console.WriteLine($"Published message {messageId}");
-                    Interlocked.Increment(ref publishedMessageCount);
-                }
-                catch (Exception exception)
-                {
-                    Console.WriteLine($"An error ocurred when publishing message {state}: {exception.Message}");
-                }
-            });
-            await Task.WhenAll(publishTasks);
-            return publishedMessageCount;
         }
 
+        
     }
 }

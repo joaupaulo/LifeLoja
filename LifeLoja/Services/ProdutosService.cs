@@ -24,6 +24,7 @@ namespace LifeLoja.Services
 
         public async Task CreateProduct(Produtos product)
         {
+
             await _context.InsertOneAsync(product);
         }
 

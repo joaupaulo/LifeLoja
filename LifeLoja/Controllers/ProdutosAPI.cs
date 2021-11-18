@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LifeLoja.Entidades;
+using LifeLoja.GcpServices;
+using LifeLoja.RabbitServices;
 using LifeLoja.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,10 +16,15 @@ namespace LifeLoja.Controllers
     public class ProdutosAPI : ControllerBase
     {
         private readonly IProdutosService _produtoRepository;
+        private readonly IPubSubRepositorio _ipubsubrepositorio;
+        private readonly IRabbitServices _irabbitservice;
 
-        public ProdutosAPI(IProdutosService produtoRepository)
+        public ProdutosAPI(IProdutosService produtoRepository, IPubSubRepositorio ipubsubrepositorio, IRabbitServices irabbitservices )
         {
             _produtoRepository = produtoRepository;
+            _ipubsubrepositorio = ipubsubrepositorio;
+            _irabbitservice = irabbitservices;
+
 
         }
 
@@ -77,7 +84,8 @@ namespace LifeLoja.Controllers
                 return BadRequest("Produto Invalido");
             }
 
-             await _produtoRepository.CreateProduct(produto);
+            _irabbitservice.ConnectMensage(produto);
+            await _produtoRepository.CreateProduct(produto);
 
 
 

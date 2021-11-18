@@ -2,6 +2,7 @@ C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug\net5.0\ProdutoFakeData.dll
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug\net5.0\ref\ProdutoFakeData.dll
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\bin\Debug\net5.0\ProdutoFakeData.pdb
+C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ProdutoFakeData.csproj.AssemblyReference.cache
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ProdutoFakeData.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ProdutoFakeData.AssemblyInfoInputs.cache
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ProdutoFakeData.AssemblyInfo.cs
@@ -9,4 +10,3 @@ C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ProdutoFakeData.dll
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ref\ProdutoFakeData.dll
 C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ProdutoFakeData.pdb
-C:\Users\JoãoPaulodosSantosSa\source\repos\LifeLoja\Produtos.FakeData\obj\Debug\net5.0\ProdutoFakeData.csproj.AssemblyReference.cache
