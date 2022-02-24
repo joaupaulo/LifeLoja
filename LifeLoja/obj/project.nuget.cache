@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eYEPmqIfS13sV3/rMlc2rWdLT5tyZQHTerA4OhzFDH2awlBgwhl4e9tY+4fhiw/DDFjpC4a2mwPoVn3aAtQzDQ==",
+  "dgSpecHash": "Ob1H9ET/JvwsKkN+2edVgIzH+pAsNG/EvXIs9K9NDvAsmbcf5vG8NcCqnW4ZT1HHM95LbRLX7s7do/2L2SeLQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj",
+  "projectFilePath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LifeLoja\\LifeLoja.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\bogus\\33.1.1\\bogus.33.1.1.nupkg.sha512",
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

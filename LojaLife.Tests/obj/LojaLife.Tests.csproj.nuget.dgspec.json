@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj": {}
+    "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj": {
+    "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LifeLoja\\LifeLoja.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj",
+        "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LifeLoja\\LifeLoja.csproj",
         "projectName": "LifeLoja",
-        "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj",
+        "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LifeLoja\\LifeLoja.csproj",
         "packagesPath": "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\obj\\",
+        "outputPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LifeLoja\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JoãoPaulodosSantosSa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,18 +95,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj": {
+    "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj",
         "projectName": "LojaLife.Tests",
-        "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj",
+        "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LojaLife.Tests\\LojaLife.Tests.csproj",
         "packagesPath": "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LojaLife.Tests\\obj\\",
+        "outputPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LojaLife.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JoãoPaulodosSantosSa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -123,11 +123,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj": {
-                "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\LifeLoja\\LifeLoja.csproj"
+              "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LifeLoja\\LifeLoja.csproj": {
+                "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\LifeLoja\\LifeLoja.csproj"
               },
-              "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj": {
-                "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj"
+              "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj": {
+                "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj"
               }
             }
           }
@@ -198,18 +198,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj": {
+    "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
+        "projectUniqueName": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
         "projectName": "ProdutoFakeData",
-        "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
+        "projectPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
         "packagesPath": "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\obj\\",
+        "outputPath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\Produtos.FakeData\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\JoãoPaulodosSantosSa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -266,7 +266,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
         }
       }
     }

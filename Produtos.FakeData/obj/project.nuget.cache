@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GX1XHpzI4WhZTngmCyE3/0pPV553cYsglrn1jRj1IhnRA/LYech7kVFHlvJouuVTNDlMsDQZ70+P+YqzVP+fOg==",
+  "dgSpecHash": "OWgcm4A4M1pzyExRPiHCPHiIFXi0I2H2un77c/MpFC+UuiBWIsSsScHuHZJ3CiTRS0Z94xPp5csh6jRwvqNp7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JoãoPaulodosSantosSa\\source\\repos\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
+  "projectFilePath": "C:\\Users\\JoãoPaulodosSantosSa\\Desktop\\LifeLoja\\Produtos.FakeData\\ProdutoFakeData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\bogus\\33.1.1\\bogus.33.1.1.nupkg.sha512",
     "C:\\Users\\JoãoPaulodosSantosSa\\.nuget\\packages\\google.api.commonprotos\\2.3.0\\google.api.commonprotos.2.3.0.nupkg.sha512",
